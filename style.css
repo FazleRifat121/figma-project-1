@@ -30,9 +30,18 @@ a{
 }
 .banner-texts{
     width: 500px;
-    height: 600px;
+    height: 500px;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+
+}
+.banner-end{
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 30px;
+    letter-spacing: -0.4399999976158142px;
+    text-align: left;
 
 }
 .banner-dates{
@@ -49,6 +58,23 @@ a{
 }
 .b-img{
     width: 400px;
-    height: 600px;
+    height: 500px;
 
+}
+@media (max-width: 768px) {
+    .banner {
+        flex-direction: column-reverse;
+        
+    }
+
+    .banner-texts {
+        width: 100%;
+        height: auto;
+    }
+
+    .b-img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 30px;
+    }
 }
