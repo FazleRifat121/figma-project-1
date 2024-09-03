@@ -160,6 +160,7 @@
     .card{
         max-width: 100%;
         height: auto;
+        margin: 0 auto;
     }
     .latest-card-text-2{
         font-size: large;
