@@ -22,6 +22,10 @@ a{
     text-decoration: underline;
     font-weight: bold;
 }
+.info-link-1{
+    visibility: hidden;
+    opacity: 0;
+}
 /* banner  */
 .banner{
     display: flex;
@@ -61,7 +65,23 @@ a{
     height: 500px;
 
 }
+
+
+
+
+
+/* responsive */
 @media (max-width: 768px) {
+    .info-link-1{
+        visibility: visible;
+        opacity: 1;
+        
+    }
+    .info-link-2{
+        visibility: hidden;
+        opacity: 0;
+        display: none;
+    }
     .banner {
         flex-direction: column-reverse;
         
