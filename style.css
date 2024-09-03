@@ -97,6 +97,13 @@
     color: #000;
     text-decoration: none;
 }
+/* second banner  */
+.banner-2{
+    background-image: url("assets/banner-2/bg.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
 /* responsive */
 @media (max-width: 768px) {
     .info-link-1{
