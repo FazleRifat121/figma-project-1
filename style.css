@@ -71,6 +71,14 @@
     padding: 0px;
     margin: 0px;
 }
+/* latest  */
+.latest-card-text-2{
+    font-size: 14px;
+}
+.badge-click:hover{
+    background-color: #000;
+    color: white;
+}
 /* popular  */
 .popular-head{
     width: 86%;
@@ -119,5 +127,9 @@
     .card{
         max-width: 100%;
         height: auto;
+    }
+    .latest-card-text-2{
+        font-size: large;
+        
     }
 }
