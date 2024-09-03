@@ -117,6 +117,19 @@
     font-size: 50px;
     font-weight: bolder;
 }
+/* footer */
+.footer ul li a{
+    text-transform: uppercase;
+    transition: all 500ms linear;
+    font-weight:500;
+}
+.footer ul li a:hover{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.copyright{
+    color: gray;
+}
 /* responsive */
 @media (max-width: 768px) {
     .info-link-1{
