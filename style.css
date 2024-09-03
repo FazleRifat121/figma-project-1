@@ -104,6 +104,19 @@
     background-repeat: no-repeat;
     background-size: cover;
 }
+/* hot stuff  */
+.hot-stuff a{
+    color: #000;
+    text-decoration: none;
+}
+.hot-stuff .card-title{
+    font-size: 18px;
+}
+/* henrik text */
+.henrik-text{
+    font-size: 50px;
+    font-weight: bolder;
+}
 /* responsive */
 @media (max-width: 768px) {
     .info-link-1{
