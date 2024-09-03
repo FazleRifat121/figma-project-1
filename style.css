@@ -158,7 +158,9 @@
         margin-bottom: 30px;
     }
     .card{
+        width: 30rem;
         max-width: 100%;
+        
         height: auto;
         margin: 0 auto;
     }
