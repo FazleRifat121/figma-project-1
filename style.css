@@ -85,6 +85,7 @@
 .card-3{
     width: 16rem;
 }
+
 /* popular  */
 .popular-head{
     width: 86%;
@@ -175,5 +176,11 @@
         
         height: auto;
         margin: 0 auto;
+    }
+    .latest-card-text-2{
+        font-size: calc(1.325rem + .9vw) ;
+    }
+    .side-card-title{
+        font-size: calc(1.325rem + .9vw) ;
     }
 }
