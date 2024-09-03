@@ -79,6 +79,12 @@
     background-color: #000;
     color: white;
 }
+.card-2{
+    width: 15rem;
+}
+.card-3{
+    width: 16rem;
+}
 /* popular  */
 .popular-head{
     width: 86%;
@@ -111,6 +117,12 @@
 }
 .hot-stuff .card-title{
     font-size: 18px;
+}
+.card-4{
+    width: 14rem;
+}
+.card-5{
+    width: 13rem;
 }
 /* henrik text */
 .henrik-text{
@@ -163,9 +175,5 @@
         
         height: auto;
         margin: 0 auto;
-    }
-    .latest-card-text-2{
-        font-size: large;
-        
     }
 }
