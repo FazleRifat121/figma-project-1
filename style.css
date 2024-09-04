@@ -81,10 +81,12 @@
     color: white;
 }
 .card-2{
-    width: 15rem;
+    width: 100%;
+    margin: 0 auto;
 }
 .card-3{
-    width: 16rem;
+    width: 100%;
+    margin: 0 auto;
 }
 
 /* popular  */
