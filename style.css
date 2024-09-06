@@ -86,7 +86,10 @@
     cursor: pointer;
     border-color: #000;
 }
-
+.card-body {
+    padding-left: 0 !important;
+    
+}
 .card-2{
     width: 100%;
     margin: 0 auto;
@@ -187,10 +190,7 @@
         height: auto;
         margin: 0 auto;
     }
-    .card-body {
-        padding-left: 0 !important;
-        
-    }
+   
     .latest-card-text-2{
         font-size: calc(1.325rem + .9vw) ;
     }
