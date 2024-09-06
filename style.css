@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: inter;
+    box-sizing: border-box;
 }
 .hr {
     border: 1px solid #000; 
@@ -76,10 +77,16 @@
 .latest-card-text-2{
     font-size: 14px;
 }
-.badge-click:hover{
-    background-color: #000;
-    color: white;
+.badge{
+    transition: all 300ms linear;
 }
+.badge:hover{
+    background-color: #000 !important;
+    color: white !important;
+    cursor: pointer;
+    border-color: #000;
+}
+
 .card-2{
     width: 100%;
     margin: 0 auto;
@@ -179,6 +186,10 @@
         
         height: auto;
         margin: 0 auto;
+    }
+    .card-body {
+        padding-left: 0 !important;
+        
     }
     .latest-card-text-2{
         font-size: calc(1.325rem + .9vw) ;
